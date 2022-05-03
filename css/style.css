@@ -13,10 +13,20 @@
 img{
   display: block;
   margin: 0 auto;
-  width: 20%;
+  width: 100%;
 }
-
-
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.images {
+  display: flex;
+  justify-content: space-evenly;
+}
+.hidden {
+  display: none;
+}
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/

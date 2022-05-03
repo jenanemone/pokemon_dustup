@@ -1,28 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-    	<meta charset="utf-8">
-    	<meta name="description" content="Jennie's Pokemon Rainbow">
-    	<meta name="keywords" content="Pokemon">
 
-		<title>The Rainbow of Pokemon</title>
+<head>
+	<meta charset="utf-8">
+	<meta name="description" content="Jennie's Pokemon Rainbow">
+	<meta name="keywords" content="Pokemon">
 
-		<!-- external CSS link -->
-		<link rel="stylesheet" href="css/normalize.css">
-		<link rel="stylesheet" href="css/style.css">
-	</head>
-	<body>
+	<title>The Rainbow of Pokemon</title>
 
-		<h1>Which Pokemon?</h1>
-		<input id='poke1' type="text" name="" value="">
-		<input id='poke2' type="text" name="">
+	<!-- external CSS link -->
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+	<section class="hero">
+		<h1>Welcome to Pokemon Dust Up!</h1>
+		<h2>Pick your winners and place your bet!</h2>
+		<section class="inputs">
+			<input id='poke1' type="text" name="" value="">
+			<input id='poke2' type="text" name="" value="">
+		</section>
+		<div></div>
 		<button type="button" name="button">Check Types</button>
+		<h2 class="results"></h2>
+	</section>
+	<section class="images">
+		<section class="pokemon1">
 
-		<img id='pokeImg1' src="" alt="">
-		<h2>Result</h2>
-		<img id='pokeImg2' src="" alt="">
-		
+			<img id='pokeImg1' class='pokemon1' src="" alt="">
+		</section>
+		<section class="pokemon2">
 
-		<script type="text/javascript" src="js/main.js"></script>
-	</body>
+			<img id='pokeImg2' class="pokemon2" src="" alt="">
+		</section>
+	</section>
+
+
+
+
+
+
+
+	<script type="text/javascript" src="js/main.js"></script>
+</body>
+
 </html>
